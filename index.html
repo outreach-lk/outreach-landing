@@ -34,7 +34,11 @@
 <body>
     <div class="h-screen w-full overflow-hidden flex flex-nowrap text-center" id="slider">
         <div
-            class="absolute flex flex-none w-full h-full flex flex-col items-center justify-center backdrop-blur-md p-4 ">
+            class="absolute flex flex-none w-full h-screen flex flex-col items-center justify-center backdrop-blur-sm p-4 "
+            style="background: rgb(0,212,255,0.3);
+background: radial-gradient(circle, rgba(255, 225, 0, 0.2) 0%, rgba(8,124,219,0.5) 20%, rgba(70,165,238,1) 63%, rgb(4, 60, 125) 88%);
+"
+>
             <img src="./images/logo-out.png" width="200px" class="drop-shadow-xl" />
             <h1 class="text-4xl font-extrabold text-white">OUTREACH</h1>
             <div class="space-y-12">
@@ -42,11 +46,10 @@
                 <div class="flex flex-row justify-center space-x-12">
                     <!-- Products    -->
                     <div class="text-white flex flex-col items-center space-y-4">
-                        <h1 class="underline">Products</h1>
                         <div class="flex flex-row space-x-12 align-baseline">
                             <!-- Donorhub -->
                             <a href="https://donorhub.outreach.lk" target="_blank"
-                                class="font-extrabold bg-blue-600 hover:bg-blue-700 transition ease-linear rounded">
+                                class="font-extrabold bg-blue-600 hover:bg-blue-700 transition rounded">
                                 <div class="
                             flex flex-col items-center p-4 drop-shadow-lg">
                                     <img src="https://donorhub.outreach.lk/assets/logo/logo-white.svg" width="30px" />
@@ -62,15 +65,8 @@
                 <!-- Social Media Links -->
                 <div class="text-white space-x-12 sm:space-x-auto">
                     <a
-                        class="font-extrabold inline-flex items-center space-x-2 rounded hover:text-violet-700  transition ease-linear">
-                        <svg class="w-5 h-5 fill-current" role="img" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24">
-                            <path
-                                d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
-                        </svg>
-                        <span>Github</span>
-                    </a>
-                    <a
+                        href="https://www.facebook.com/outreach-lka"
+                        target="_blank"
                         class="font-extrabold inline-flex items-center space-x-2 rounded hover:text-blue-700 transition ease-linear">
                         <svg class="w-5 h-5 fill-current" role="img" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24">
@@ -80,6 +76,8 @@
                         <span>Facebook</span>
                     </a>
                     <a
+                        href="https://www.twitter.com/outreach-lka"
+                        target="_blank"
                         class="font-extrabold inline-flex items-center space-x-2 rounded hover:text-blue-400 transition ease-linear">
                         <svg class="w-5 h-5 fill-current" role="img" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24">
@@ -89,6 +87,8 @@
                         <span>Twitter</span>
                     </a>
                     <a
+                        href="https://www.youtube.com/outreach-lka"
+                        target="_blank"
                         class="font-extrabold inline-flex items-center space-x-2 rounded hover:text-red-700 transition ease-linear">
                         <svg class="w-5 h-5 fill-current" role="img" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24">
@@ -97,6 +97,17 @@
                         </svg>
                         <span>Youtube</span>
                     </a>
+                    <a
+                    href="https://www.github.com/outreach-lka"
+                    target="_blank"
+                    class="font-extrabold inline-flex items-center space-x-2 rounded hover:text-violet-700  transition ease-linear">
+                    <svg class="w-5 h-5 fill-current" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                    </svg>
+                    <span>Github</span>
+                </a>
                 </div>
 
             </div>
@@ -104,7 +115,7 @@
         <!-- Slide 1 -->
         <div class="bg-blue-600 bg-cover  bg-center text-white  space-y-0 flex-none w-full flex flex-col items-end justify-end"
             style="background-image: url('./images/slides/slide-2-min.jpg');">
-            <a class="z-50 max-w-md text-left p-4"
+            <a class="z-50 max-w-md text-left p-4 text-xs"
                 href="https://www.pexels.com/photo/people-silhouette-during-sunset-853168/">
                 Photo by Min An
             </a>
@@ -112,7 +123,7 @@
         <!-- Slide 2 -->
         <div class="bg-teal-500 bg-cover bg-no-repeat bg-center text-white space-y-4 flex-none w-full flex flex-col items-end justify-end"
             style="background-image: url('./images/slides/slide-1-min.jpg');">
-            <a class="z-50 max-w-md text-left p-4"
+            <a class="z-50 max-w-md text-left p-4 text-xs"
                 href="https://www.pexels.com/photo/green-train-on-brown-bridge-4769075/">
                 Photo by Domenico Bertazzo
             </a>
@@ -120,7 +131,7 @@
         <!-- Slide 3 -->
         <div class="bg-pink-400 bg-cover  bg-center text-white space-y-4 flex-none w-full flex flex-col items-end justify-end"
             style="background-image: url('./images/slides/slide-3-min.jpg');">
-            <a class="z-50 max-w-md text-left p-4"
+            <a class="z-50 max-w-md text-left p-4 text-xs"
                 href="https://www.pexels.com/photo/aerial-photography-of-boats-on-shore-1998439/">
                 Photo by Tomáš Malík
             </a>
